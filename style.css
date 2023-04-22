@@ -1,0 +1,439 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header
+{
+background: url("https://images.unsplash.com/photo-1679560271870-e8f4eb3314da?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDJ8Ym84alFLVGFFMFl8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60");
+width: 700px;
+height: 2000x;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+display:flex;
+align-items: center;
+justify-content: center;
+
+}
+
+ 
+ .icon{
+
+    width: 158px;
+    float: right;
+ }
+ .logo{
+    color: blue;
+    font: size 13px;
+font-family: Arial, Helvetica, sans-serif;
+float: left;
+padding-top: 25px;
+margin-left: 5px;
+ }
+ .menu{
+    width: 350px;
+    float: left;
+    height: 70px;
+ }
+ .paragraph{
+   color:white;
+ }
+ .paragraph h2{
+   font-family: 'Times New Roman', Times, serif;
+   color:rgb(0, 255, 128);
+   margin-left: 15px;
+ }
+ .paragraph p{
+  margin-left: 15px;
+  font: size 7px;
+ }
+ .list{
+   color: azure;
+ }
+ .list h1{
+   color:greenyellow;
+ }
+
+ 
+ ul{
+    float:left;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    padding-top: 10px;
+    margin-left: 15px;
+
+ }
+
+ ul li{
+    list-style: none;
+  
+    margin-left: 49px;
+    margin-top: 20px;
+    font-size: 17px;
+
+ }
+ ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.4s, ease-in-out;}
+
+    ul li a:hover{
+        color: rgb(32, 243, 123);
+        
+    
+   
+      font-family: 'Times New Roman', Times, serif;
+      width: 200px;
+
+    }
+    a.active,a:hover{
+      border: 1px solid white;
+      transition: .5s;
+    }
+    .menu #icon{
+      color: yellow;
+      font-size: 25px;
+      line-height: 53px;
+      float: right;
+      margin-right: -30px;
+      cursor: pointer;
+
+
+    }
+      .menu #icon{
+        display: block;
+   padding-top: 15px;
+  margin-left: 8px;
+     
+
+    }
+.list {
+    color: rgb(27, 138, 236);
+    margin-left: 35px;
+
+  }
+  .list a{
+    color:white;
+  }
+  .contactbox {
+    float:left;
+    
+    color: aliceblue;
+     
+  }
+
+
+  .linkbox{
+    color: aliceblue;
+  }
+
+  .social-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+margin-left: 300px;
+
+
+  }
+  
+  
+  
+  .social-links a i {
+    transition: color 0.3s ease;
+  }
+  
+  .social-links a:hover i {
+    color: #999;
+  }
+  
+  .fa-whatsapp {
+    background-color: #25D366;
+    padding: 10px;
+    border-radius: 50%;
+  }
+  
+  .fa-facebook {
+    background-color: #3B5998;
+    padding: 10px;
+    border-radius: 50%;
+  }
+  .hero-btn{
+    display:inline-block;
+    text-decoration:none;
+    color:orange;
+    border: 1px solid;
+    padding: 11px 30px;
+    font-size: 14px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+
+  }
+  .hero-btn:hover{
+    border: 1px solid greenyellow;
+    background:green;
+    transition: 1s;
+  }
+  .madename{
+  background-color: black;
+    color: white;
+    padding: 5px;
+    margin-top: 2px;
+    padding-top: 2px;
+    text-align: center;
+    width: 93vh;
+  }
+/* -----------------------------for mobile devices--------------------------------------------*/
+     @media(max-width: 700px){
+
+      *{
+        margin: 0;
+        padding: 0%;
+    }
+    .header{
+    
+    background: url("https://images.unsplash.com/photo-1679560271870-e8f4eb3314da?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDJ8Ym84alFLVGFFMFl8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60");
+    width: 50%;
+    height: 2000x;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+    }
+
+
+.logo{
+        color: blue;
+        font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    padding-top: 20px;
+    margin-left: 3px;
+     }
+     .list {
+      color: rgb(27, 138, 236);
+      margin-left: 3px;
+      margin-right: 370px;
+      
+  
+    }
+    .list h1{
+      font-size: 17px;
+      padding-top:68px;
+      margin-left: 4px;
+
+
+    }
+    .list a{
+      margin-left: 4px;
+      font-size: 12px;
+
+    }
+    .paragraph{
+      margin-left: 0px;
+      font-size: 10px;
+      float: left;
+      text-align: left;
+      margin-right: 350px;
+      padding-top: 2px;
+    }
+    .paragraph h1{
+      font-size: 20px;
+
+    }
+    .paragraph p{
+      font-size: 10px;
+      margin-left: 5px;
+    }
+    
+ ul{
+  float:left;
+  display: flex;
+  justify-content: center;
+  align-items:center ;
+  padding-top: 3px;
+  margin-left: 12px;
+
+}
+
+ul li{
+  list-style: none;
+
+  margin-left: 19px;
+  margin-top: 25px;
+  font-size: 15px;
+
+}
+        
+
+ul li a:hover{
+    color: rgb(32, 243, 123);
+    
+
+
+  font-family: 'Times New Roman', Times, serif;
+  width: 200px;
+
+}
+a.active,a:hover{
+  border: 1px solid black;
+  transition: .5s;
+}
+.social-links {
+  display: flex;
+  align-items: left;
+  margin-right: 390px;
+  margin-left: 5px;
+  justify-content: center;
+}
+
+
+.social-links a i {
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover i {
+  color: #999;
+}
+.social-links a {
+  display: inline-block;
+  margin: 0 10px;
+  color: #fff;
+  font-size: 24px;
+  text-decoration: none;
+}
+.fa-whatsapp {
+  background-color: #25D366;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.fa-facebook {
+  background-color: #3B5998;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.hero-btn{
+  display:inline-block;
+  text-decoration:none;
+  color: red;
+  border: 1px solid;
+  padding: 11px 30px;
+  font-size: 14px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+
+}
+.hero-btn:hover{
+  border: 1px solid greenyellow;
+  background:green;
+  transition: 1s;
+}
+.madename{
+  background-color: black;
+    color: white;
+    padding: 5px;
+    margin-top: 2px;
+    padding-top: 2px;
+    text-align: center;
+    width: 33vh;
+  }
+.madename h2{
+  font-size: 14px;
+
+}
+.contactbox {
+  float:left;
+  
+  color: aliceblue;
+  font-size: 10px;
+   
+}
+.contactbox ul li{
+  font-size: 11px;
+  margin-left: 5px;
+}
+        
+}
+/*------------------------------------------------------------end of the smALL screen------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+ul li a:hover{
+   color: rgb(32, 243, 123);
+    
+
+
+  font-family: 'Times New Roman', Times, serif;
+  width: 200px;
+
+}
+a.active,a:hover{
+  border: 1px solid black;
+  transition: .5s;
+}
+.social-links {
+  display: flex;
+  align-items: left;
+  margin-right: 360px;
+
+  justify-content: center;
+}
+
+
+.social-links a i {
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover i {
+  color: #999;
+}
+.social-links a {
+  display: inline-block;
+  margin: 0 10px;
+  color: #fff;
+  font-size: 24px;
+  text-decoration: none;
+}
+.fa-whatsapp {
+  background-color: #25D366;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.fa-facebook {
+  background-color: #3B5998;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.hero-btn{
+  display:inline-block;
+  text-decoration:none;
+  color: red;
+  border: 1px solid;
+  padding: 11px 30px;
+  font-size: 14px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+
+}
+   
